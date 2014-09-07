@@ -1,27 +1,30 @@
+body {
+    font-family: 'Century Gothic', Arial, Tahoma, sans-serif;
+}
+
 .container {
     background-color: #555;
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     height: 400px;
     display: flex;
 }
 
 .item {
-    
+    color: white;
 }
 
 .item1 {
-    background-color: red;
+    background-color: #d02;
+    flex-grow: 1;
 }
 
 .item2 {
-    background-color: green;
+    background-color: #138;
+    flex-grow: 3;
 }
 
 .item3 {
-    background-color: blue;
-}
-
-.item4 {
-    background-color: orange;
+    background-color: #262;
+    flex-grow: 1;
 }
